@@ -1,18 +1,18 @@
 # Bubble Plot for relative abundance and protein expression
 
-## Prepared .csv file 
+### Saved the excel file as .csv and called Abundance_GP
 ![Abundance file](C:\Users\Maryam\Pictures\Genome and Proteome Abundance.png)
 
-## Set working directory
+### Set working directory and loaded libraries 
 
 ```
-setwd("/Users/Maryam/papers/R_scripts_for_Figures")
+setwd("/Maryam/papers/R_scripts_for_Figures")
+library(dplyr)
+library(tidyr)
+library(ggplot2)
 ```
 
 
-
-
-setwd("/Users/Maryam/OneDrive/PhD 2017/papers/Bioreactor_Genome_paper/Second_Metagenomics/Writing_Paper/Figures/R_scripts_for_Figures")
 
 library(dplyr)
 library(tidyr)
