@@ -3,6 +3,13 @@
 ## Prepared .csv file 
 ![Abundance file](C:\Users\Maryam\Pictures\Genome and Proteome Abundance.png)
 
+## Set working directory
+
+```
+setwd("/Users/Maryam/papers/R_scripts_for_Figures")
+```
+
+
 
 
 setwd("/Users/Maryam/OneDrive/PhD 2017/papers/Bioreactor_Genome_paper/Second_Metagenomics/Writing_Paper/Figures/R_scripts_for_Figures")
