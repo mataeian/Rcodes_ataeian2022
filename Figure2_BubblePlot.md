@@ -1,7 +1,8 @@
 # Bubble Plot for relative abundance and protein expression
 
 ### Saved the excel file as .csv and called Abundance_GP
-![Abundance file](C:\Users\Maryam\Pictures\Genome and Proteome Abundance.png)
+![Abundance file](Genome and Proteome Abundance.png)
+
 
 ### Set working directory and loaded libraries 
 
