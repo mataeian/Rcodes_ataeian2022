@@ -12,24 +12,24 @@ library(tidyr)
 library(ggplot2)
 ```
 
-
-
-library(dplyr)
-library(tidyr)
-library(ggplot2)
-
-
-#saved the excel file as csv called Abundance_GP
-
+### Uploaded my data to R
+```
 Abundance_GP <- read.table("Abundance_GP.csv", header = TRUE, sep = ",")
-# R does not like numbers in the headers so it puts a X next to them. I changed the names so there is not header starting with a number.
+```
+R does not like numbers in the headers so it puts an X next to them. I changed the names so header doesn't start with a number.
 
-#make a long table
+### Changed my data structure from wide to long format
+
+```
 Abundance_GP_long <- gather(Abundance_GP , Condition , Abundance, 7:14)
+```
 
 
-#remove zero
+### Removed zero
+
+```
 Abundance_GP_long_nozero <- filter(Abundance_GP_long, Abundance > 0)
+```
 
 # To split the condition column into two columns 
 Abundance_GP_long_nozero_split <- separate(Abundance_GP_long_nozero, Condition, c("treatments","Bin_Protein"), sep = "_")
