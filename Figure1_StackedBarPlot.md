@@ -46,4 +46,5 @@ plot = ggplot(pcm, aes(x = Sample, fill = variable, y = value)) +
 plot
 
 ```
-Colors and additional features were edited in Inkscape
+
+Colors and additional features were edited in Inkscape. 
