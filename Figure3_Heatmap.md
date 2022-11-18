@@ -1,6 +1,6 @@
 # Heatmap for gene content of the bins
 
-Saved the excel file as .csv with bins as columns and genes as rows and called it 
+Saved the excel file as .csv with bins as columns and genes as rows and called it bins_function.csv
 
 ### Set working directory and loaded libraries
 ```
